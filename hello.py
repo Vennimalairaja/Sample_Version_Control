@@ -1,4 +1,6 @@
-def hello():
-	print("Hello how are you ?")
+def hello(a):
+	for i in range(a):
+		print("Hello!")
 if __name__=="__main__":
-	hello()
+	a=int(input("Enter a number:")
+	hello(a)
